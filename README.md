@@ -1,4 +1,3 @@
-<!-- 1-n 1-n
-1-1 1-n
-
- -->
+## an small project with node js express and mysql
+# if you want to start the project ,do this command
+npm start

@@ -4,12 +4,7 @@ const { sequelize } = require('./config/sequelize');
 const router = require('./routes/route');
 const cors = require('cors');
 const path = require('path');
-const paypal = require('paypal-rest-sdk');
-paypal.configure({
-  'mode': 'sandbox', //sandbox or live
-  'client_id': '####yourclientid######',
-  'client_secret': '####yourclientsecret#####'
-});
+
 const bodyParser = require('body-parser');
 
 const app = express();
